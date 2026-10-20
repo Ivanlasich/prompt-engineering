@@ -1,0 +1,39 @@
+{
+  "videos": [
+    {
+      "file": "media/screencast.mp4",
+      "duration_seconds": 340.88,
+      "streams": [
+        "audio",
+        "data",
+        "subtitle",
+        "video"
+      ],
+      "chapters": 9,
+      "hash_match": true,
+      "full_decode": "passed",
+      "author": "Иван Лазичный",
+      "approval_footer": true
+    },
+    {
+      "file": "media/search-tools.mp4",
+      "duration_seconds": 99.28,
+      "streams": [
+        "audio",
+        "data",
+        "subtitle",
+        "video"
+      ],
+      "chapters": 3,
+      "hash_match": true,
+      "full_decode": "passed",
+      "author": "Иван Лазичный",
+      "approval_footer": true
+    }
+  ],
+  "synthetic_narration_disclosed": true,
+  "author": "Иван Лазичный",
+  "author_approval_source": "reports/submission/author_approval.json",
+  "new_api_calls": 0,
+  "originals_backup": ".cache/recording/pre-author-approval"
+}

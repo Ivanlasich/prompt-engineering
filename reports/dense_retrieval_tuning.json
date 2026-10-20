@@ -1,0 +1,139 @@
+{
+  "selection_split": "dev",
+  "input": "literal user questions; agent-rewritten queries may differ",
+  "candidates": [
+    {
+      "top_k": 2,
+      "min_score": -1,
+      "recall": 0.78125,
+      "mean_context_bytes": 5465.65
+    },
+    {
+      "top_k": 2,
+      "min_score": 0.35,
+      "recall": 0.78125,
+      "mean_context_bytes": 5465.65
+    },
+    {
+      "top_k": 2,
+      "min_score": 0.5,
+      "recall": 0.78125,
+      "mean_context_bytes": 5465.65
+    },
+    {
+      "top_k": 2,
+      "min_score": 0.65,
+      "recall": 0.78125,
+      "mean_context_bytes": 5465.65
+    },
+    {
+      "top_k": 4,
+      "min_score": -1,
+      "recall": 0.90625,
+      "mean_context_bytes": 11829.45
+    },
+    {
+      "top_k": 4,
+      "min_score": 0.35,
+      "recall": 0.90625,
+      "mean_context_bytes": 11829.45
+    },
+    {
+      "top_k": 4,
+      "min_score": 0.5,
+      "recall": 0.90625,
+      "mean_context_bytes": 11829.45
+    },
+    {
+      "top_k": 4,
+      "min_score": 0.65,
+      "recall": 0.90625,
+      "mean_context_bytes": 11829.45
+    },
+    {
+      "top_k": 8,
+      "min_score": -1,
+      "recall": 0.96875,
+      "mean_context_bytes": 23655.9
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.35,
+      "recall": 0.96875,
+      "mean_context_bytes": 23655.9
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.5,
+      "recall": 0.96875,
+      "mean_context_bytes": 23655.9
+    },
+    {
+      "top_k": 8,
+      "min_score": 0.65,
+      "recall": 0.96875,
+      "mean_context_bytes": 23571.1
+    },
+    {
+      "top_k": 12,
+      "min_score": -1,
+      "recall": 1,
+      "mean_context_bytes": 34770.2
+    },
+    {
+      "top_k": 12,
+      "min_score": 0.35,
+      "recall": 1,
+      "mean_context_bytes": 34770.2
+    },
+    {
+      "top_k": 12,
+      "min_score": 0.5,
+      "recall": 1,
+      "mean_context_bytes": 34770.2
+    },
+    {
+      "top_k": 12,
+      "min_score": 0.65,
+      "recall": 1,
+      "mean_context_bytes": 34296.7
+    }
+  ],
+  "best_retrieval_only": {
+    "top_k": 12,
+    "min_score": 0.65,
+    "recall": 1,
+    "mean_context_bytes": 34296.7
+  },
+  "warning": "Retrieval tuning is diagnostic. Final pipeline is chosen by end-to-end dev quality and cost, not this recall alone.",
+  "usage": {
+    "prompt_tokens": 1099,
+    "completion_tokens": 0,
+    "total_tokens": 1099,
+    "cached_prompt_tokens": 0,
+    "generation_tokens": 0,
+    "embedding_tokens": 1099,
+    "api_attempts": 1,
+    "unknown_usage_attempts": 0,
+    "api_latency_ms": 2034.4,
+    "estimated_cost_rub": 0.015386,
+    "cost_label": "Эквивалент пакета для юрлица; фактическое списание денег и договор не подтверждены",
+    "cash_charge_confirmed": false,
+    "logical_tokens_including_cached": 1099
+  },
+  "events": [
+    {
+      "operation": "embedding",
+      "model": "EmbeddingsGigaR",
+      "prompt_tokens": 1099,
+      "completion_tokens": 0,
+      "total_tokens": 1099,
+      "cached_prompt_tokens": 0,
+      "usage_known": true,
+      "latency_ms": 2034.4,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "412ea7a4-dacf-4b4c-896d-cdcf29af0b9a"
+    }
+  ]
+}

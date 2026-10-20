@@ -1,0 +1,10 @@
+{
+  "automatic_model_calls": {
+    "keyword_search": 362,
+    "semantic_search": 4
+  },
+  "successful_forced_demonstrations": {
+    "semantic_search": 1,
+    "keyword_search": 1
+  }
+}

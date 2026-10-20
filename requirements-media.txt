@@ -1,0 +1,3 @@
+# Optional tooling for reproducible local browser recordings.
+# Also requires system ffmpeg/ffprobe and macOS say (Milena voice).
+playwright==1.64.0

@@ -1,0 +1,8 @@
+Clean Git-index export: 390f5491b03cc9d6c84683a5054633825593f83b
+Editable installation: passed
+Python: 3.12.14
+Tests: 51 passed
+Gold validation: passed (60 cases, 95 facts)
+Corpus: 1952 chunks
+Credential file in export: false
+Paid API calls: 0

@@ -1,0 +1,70 @@
+{"variant": "compact", "case": "dev-01", "repeat": 0, "tokens": 123, "deterministic": false, "useful": false, "error": null}
+{"variant": "compact", "case": "dev-02", "repeat": 0, "tokens": 2830, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-03", "repeat": 0, "tokens": 4532, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "compact", "case": "dev-04", "repeat": 0, "tokens": 132, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-05", "repeat": 0, "tokens": 2226, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-06", "repeat": 0, "tokens": 3734, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "compact", "case": "dev-07", "repeat": 0, "tokens": 1901, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-08", "repeat": 0, "tokens": 1927, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-09", "repeat": 0, "tokens": 2067, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-10", "repeat": 0, "tokens": 5001, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "compact", "case": "dev-11", "repeat": 0, "tokens": 2464, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-12", "repeat": 0, "tokens": 2156, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-13", "repeat": 0, "tokens": 125, "deterministic": false, "useful": false, "error": null}
+{"variant": "compact", "case": "dev-14", "repeat": 0, "tokens": 2134, "deterministic": false, "useful": false, "error": null}
+{"variant": "compact", "case": "dev-15", "repeat": 0, "tokens": 138, "deterministic": false, "useful": false, "error": null}
+{"variant": "compact", "case": "dev-16", "repeat": 0, "tokens": 1913, "deterministic": false, "useful": false, "error": null}
+{"variant": "compact", "case": "dev-17", "repeat": 0, "tokens": 321, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-18", "repeat": 0, "tokens": 2774, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-19", "repeat": 0, "tokens": 2467, "deterministic": true, "useful": true, "error": null}
+{"variant": "compact", "case": "dev-20", "repeat": 0, "tokens": 2604, "deterministic": true, "useful": true, "error": null}
+{
+  "n": 20,
+  "useful_count": 12,
+  "semantic_evaluation_coverage": 1.0,
+  "useful_rate": 0.6,
+  "deterministic_pass_rate": 0.6,
+  "schema_valid_rate": 0.85,
+  "citations_valid_rate": 0.85,
+  "required_fact_recall": 0.53125,
+  "retrieval_recall": 0.625,
+  "context_recall": 0.625,
+  "mrr": 0.546875,
+  "total_tokens": 41569,
+  "mean_tokens": 2078.45,
+  "mean_latency_ms": 5103.62,
+  "total_cost_rub": 27.019849999999998,
+  "median_latency_ms": 4833.745,
+  "p95_latency_ms": 9588.3605,
+  "cost_per_useful_rub": 2.2516541666666665,
+  "cost_is_lower_bound": false,
+  "operational_failures": 3,
+  "false_answers_on_unanswerable": 0,
+  "name": "compact",
+  "split": "dev",
+  "repeats": 1,
+  "signature": "1be5f328d6810db1dd3032f20f0c1c464888d4b7121166cf6fbbf3f65b185335",
+  "expected": 20,
+  "complete": true,
+  "config": {
+    "name": "compact",
+    "top_k": 4,
+    "min_score": -1,
+    "deduplicate": true,
+    "short_prompt": true,
+    "examples": 1,
+    "max_output_tokens": 800,
+    "context_byte_budget": 20000,
+    "max_search_calls": 1,
+    "candidates": 1,
+    "max_total_tokens": 100000,
+    "max_request_byte_tokens": 120000,
+    "temperature": 0.01,
+    "max_repairs": 1,
+    "schema_version": "answer-1.0",
+    "prompt_version": "1.2"
+  },
+  "judge_admitted": true,
+  "judge_total_tokens": 12834,
+  "judge_total_cost_rub": 8.3421
+}

@@ -1,0 +1,30 @@
+{"clip": "main", "chapter": 1, "title": "Задача и корпус", "start": 0.09}
+{"clip": "main", "chapter": 2, "title": "Живой вопрос и вызов поиска", "start": 34.89}
+{"clip": "main", "chapter": 3, "title": "Источники и JSON", "start": 71.85}
+{"clip": "main", "chapter": 4, "title": "Отсутствие сведений", "start": 109.28}
+{"clip": "main", "chapter": 5, "title": "Проверка навязанной инструкции", "start": 143.89}
+{"clip": "main", "chapter": 6, "title": "Измерения до и после", "start": 177.31}
+{"clip": "main", "chapter": 7, "title": "Цена и ухудшения", "start": 217.37}
+{"clip": "main", "chapter": 8, "title": "Дополнительные техники", "start": 260.42}
+{"clip": "main", "chapter": 9, "title": "Проверки и ограничения", "start": 299.31}
+{"clip": "tools", "chapter": 1, "title": "Нативные поисковые инструменты", "start": 0.05}
+{"clip": "tools", "chapter": 2, "title": "Семантический поиск", "start": 31.07}
+{"clip": "tools", "chapter": 3, "title": "Лексический поиск", "start": 63.19}
+[
+  {
+    "file": "media/screencast.mp4",
+    "duration_seconds": 378.8,
+    "sha256": "62204fbf843624dd9359815af608449db6f568b4fa58abea74fb1b47d7b8079b",
+    "live_api_calls": true,
+    "narration": "Автор: Иван Лазичный. Материалы проверены и утверждены автором. Озвучка синтезирована.",
+    "browser": "156.0.8078.4"
+  },
+  {
+    "file": "media/search-tools.mp4",
+    "duration_seconds": 107.08,
+    "sha256": "b4117fe64e55574c0fb45161aa586e99a33b43e91bf128462c47da0c840dce76",
+    "live_api_calls": true,
+    "narration": "Автор: Иван Лазичный. Материалы проверены и утверждены автором. Озвучка синтезирована.",
+    "browser": "156.0.8078.4"
+  }
+]

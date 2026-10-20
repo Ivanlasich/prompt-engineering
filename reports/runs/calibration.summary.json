@@ -1,0 +1,11 @@
+{
+  "cases": 20,
+  "valid_judgments": 20,
+  "agreement": 1.0,
+  "kappa": 1.0,
+  "false_acceptance_rate": 0.0,
+  "admitted": true,
+  "label_provenance": "author_reviewed",
+  "judge_prompt_hash": "3fc52eca2cb2800e7890994a293a892fbe05ded0b32d98b239733232272d9bf8",
+  "expected_cases": 20
+}

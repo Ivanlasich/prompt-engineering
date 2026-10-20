@@ -1,0 +1,18 @@
+{
+  "passed": 6,
+  "checks": [
+    "presentation served",
+    "offline mode explicit",
+    "environment file inaccessible",
+    "cross-origin asks rejected",
+    "non-object payload rejected",
+    "paid requests disabled by default"
+  ],
+  "paid_api_calls": 0,
+  "frontend_offline_qa": {
+    "desktop": "1600x1000",
+    "narrow_width": 760,
+    "javascript_errors": 0,
+    "horizontal_overflow": 0
+  }
+}

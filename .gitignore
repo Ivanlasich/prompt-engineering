@@ -1,0 +1,14 @@
+.venv/
+.env
+.env.local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+.cache/
+data/index/
+data/rebuilt_index/
+reports/runs/*.partial
+.DS_Store

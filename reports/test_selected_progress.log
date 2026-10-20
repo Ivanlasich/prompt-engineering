@@ -1,0 +1,170 @@
+{"variant": "short_prompt", "case": "test-01", "repeat": 0, "tokens": 5322, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-02", "repeat": 0, "tokens": 2193, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-03", "repeat": 0, "tokens": 2189, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-04", "repeat": 0, "tokens": 4404, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-05", "repeat": 0, "tokens": 1872, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-06", "repeat": 0, "tokens": 2427, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-07", "repeat": 0, "tokens": 1879, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-08", "repeat": 0, "tokens": 1782, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-09", "repeat": 0, "tokens": 1994, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-10", "repeat": 0, "tokens": 3990, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-11", "repeat": 0, "tokens": 2230, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-12", "repeat": 0, "tokens": 1993, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-13", "repeat": 0, "tokens": 2590, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-14", "repeat": 0, "tokens": 2013, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-15", "repeat": 0, "tokens": 2117, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-16", "repeat": 0, "tokens": 2501, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-17", "repeat": 0, "tokens": 4534, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-18", "repeat": 0, "tokens": 2453, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-19", "repeat": 0, "tokens": 2139, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-20", "repeat": 0, "tokens": 2208, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-21", "repeat": 0, "tokens": 2464, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-22", "repeat": 0, "tokens": 2148, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-23", "repeat": 0, "tokens": 1847, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-24", "repeat": 0, "tokens": 2516, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-25", "repeat": 0, "tokens": 4584, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-26", "repeat": 0, "tokens": 2309, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-27", "repeat": 0, "tokens": 2599, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-28", "repeat": 0, "tokens": 2080, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-29", "repeat": 0, "tokens": 2296, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-30", "repeat": 0, "tokens": 4769, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-31", "repeat": 0, "tokens": 2075, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-32", "repeat": 0, "tokens": 2279, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-33", "repeat": 0, "tokens": 2503, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-34", "repeat": 0, "tokens": 2840, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-35", "repeat": 0, "tokens": 2935, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-36", "repeat": 0, "tokens": 70, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "short_prompt", "case": "test-37", "repeat": 0, "tokens": 1968, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-38", "repeat": 0, "tokens": 2183, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-39", "repeat": 0, "tokens": 2959, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-40", "repeat": 0, "tokens": 1706, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-01", "repeat": 1, "tokens": 4980, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-02", "repeat": 1, "tokens": 1793, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-03", "repeat": 1, "tokens": 2241, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-04", "repeat": 1, "tokens": 2214, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-05", "repeat": 1, "tokens": 1913, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-06", "repeat": 1, "tokens": 121, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-07", "repeat": 1, "tokens": 1879, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-08", "repeat": 1, "tokens": 1787, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-09", "repeat": 1, "tokens": 1984, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-10", "repeat": 1, "tokens": 4025, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-11", "repeat": 1, "tokens": 2235, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-12", "repeat": 1, "tokens": 1992, "deterministic": true, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-13", "repeat": 1, "tokens": 5389, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-14", "repeat": 1, "tokens": 2554, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-15", "repeat": 1, "tokens": 2017, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-16", "repeat": 1, "tokens": 2507, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-17", "repeat": 1, "tokens": 2202, "deterministic": true, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-18", "repeat": 1, "tokens": 2077, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-19", "repeat": 1, "tokens": 2152, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-20", "repeat": 1, "tokens": 2255, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-21", "repeat": 1, "tokens": 2452, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-22", "repeat": 1, "tokens": 2206, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-23", "repeat": 1, "tokens": 1842, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-24", "repeat": 1, "tokens": 2469, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-25", "repeat": 1, "tokens": 2758, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-26", "repeat": 1, "tokens": 2377, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-27", "repeat": 1, "tokens": 2599, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-28", "repeat": 1, "tokens": 2254, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-29", "repeat": 1, "tokens": 2293, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-30", "repeat": 1, "tokens": 2359, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-31", "repeat": 1, "tokens": 4365, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-32", "repeat": 1, "tokens": 2279, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-33", "repeat": 1, "tokens": 3177, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-34", "repeat": 1, "tokens": 3005, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-35", "repeat": 1, "tokens": 2935, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-36", "repeat": 1, "tokens": 70, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "short_prompt", "case": "test-37", "repeat": 1, "tokens": 1857, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-38", "repeat": 1, "tokens": 2185, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-39", "repeat": 1, "tokens": 2959, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-40", "repeat": 1, "tokens": 126, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-01", "repeat": 2, "tokens": 2870, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-02", "repeat": 2, "tokens": 2175, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-03", "repeat": 2, "tokens": 2215, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-04", "repeat": 2, "tokens": 2262, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-05", "repeat": 2, "tokens": 1825, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-06", "repeat": 2, "tokens": 2440, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-07", "repeat": 2, "tokens": 1896, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-08", "repeat": 2, "tokens": 1787, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-09", "repeat": 2, "tokens": 2008, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-10", "repeat": 2, "tokens": 1949, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-11", "repeat": 2, "tokens": 2218, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-12", "repeat": 2, "tokens": 138, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-13", "repeat": 2, "tokens": 2636, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-14", "repeat": 2, "tokens": 2015, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-15", "repeat": 2, "tokens": 2007, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-16", "repeat": 2, "tokens": 2589, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-17", "repeat": 2, "tokens": 4547, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-18", "repeat": 2, "tokens": 2432, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-19", "repeat": 2, "tokens": 1989, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-20", "repeat": 2, "tokens": 2141, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-21", "repeat": 2, "tokens": 2464, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-22", "repeat": 2, "tokens": 2246, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-23", "repeat": 2, "tokens": 1846, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-24", "repeat": 2, "tokens": 2524, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-25", "repeat": 2, "tokens": 4594, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-26", "repeat": 2, "tokens": 2310, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-27", "repeat": 2, "tokens": 2592, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-28", "repeat": 2, "tokens": 4048, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-29", "repeat": 2, "tokens": 2295, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-30", "repeat": 2, "tokens": 2385, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-31", "repeat": 2, "tokens": 2112, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-32", "repeat": 2, "tokens": 2278, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-33", "repeat": 2, "tokens": 2881, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "short_prompt", "case": "test-34", "repeat": 2, "tokens": 2842, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-35", "repeat": 2, "tokens": 2932, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-36", "repeat": 2, "tokens": 70, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "short_prompt", "case": "test-37", "repeat": 2, "tokens": 2119, "deterministic": true, "useful": true, "error": null}
+{"variant": "short_prompt", "case": "test-38", "repeat": 2, "tokens": 2381, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-39", "repeat": 2, "tokens": 2138, "deterministic": false, "useful": false, "error": null}
+{"variant": "short_prompt", "case": "test-40", "repeat": 2, "tokens": 450, "deterministic": true, "useful": true, "error": null}
+{
+  "n": 120,
+  "useful_count": 84,
+  "semantic_evaluation_coverage": 1.0,
+  "useful_rate": 0.7,
+  "deterministic_pass_rate": 0.7166666666666667,
+  "schema_valid_rate": 0.8833333333333333,
+  "citations_valid_rate": 0.8833333333333333,
+  "required_fact_recall": 0.7072072072072072,
+  "retrieval_recall": 0.7117117117117117,
+  "context_recall": 0.7117117117117117,
+  "mrr": 0.6403903903903904,
+  "total_tokens": 288490,
+  "mean_tokens": 2404.0833333333335,
+  "mean_latency_ms": 8212.909333333333,
+  "total_cost_rub": 187.5185,
+  "median_latency_ms": 6337.855,
+  "p95_latency_ms": 20113.418999999998,
+  "cost_per_useful_rub": 2.232363095238095,
+  "cost_is_lower_bound": false,
+  "operational_failures": 14,
+  "false_answers_on_unanswerable": 0,
+  "name": "short_prompt",
+  "split": "test",
+  "repeats": 3,
+  "signature": "95d205a6084ae847c36ace77a02533c3165c0b1b26ae977ed5990794b2aa9772",
+  "expected": 120,
+  "complete": true,
+  "config": {
+    "name": "short_prompt",
+    "top_k": 4,
+    "min_score": -1,
+    "deduplicate": true,
+    "short_prompt": true,
+    "examples": 3,
+    "max_output_tokens": 1200,
+    "context_byte_budget": 20000,
+    "max_search_calls": 1,
+    "candidates": 1,
+    "max_total_tokens": 100000,
+    "max_request_byte_tokens": 120000,
+    "temperature": 0.01,
+    "max_repairs": 1,
+    "schema_version": "answer-1.0",
+    "prompt_version": "1.1"
+  },
+  "judge_admitted": true,
+  "judge_total_tokens": 126060,
+  "judge_total_cost_rub": 81.93900000000001
+}

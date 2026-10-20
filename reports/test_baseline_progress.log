@@ -1,0 +1,170 @@
+{"variant": "baseline", "case": "test-01", "repeat": 0, "tokens": 5218, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-02", "repeat": 0, "tokens": 5461, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-03", "repeat": 0, "tokens": 4118, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-04", "repeat": 0, "tokens": 6499, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-05", "repeat": 0, "tokens": 4021, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-06", "repeat": 0, "tokens": 4327, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-07", "repeat": 0, "tokens": 4523, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-08", "repeat": 0, "tokens": 3710, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-09", "repeat": 0, "tokens": 4330, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-10", "repeat": 0, "tokens": 3664, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-11", "repeat": 0, "tokens": 4325, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-12", "repeat": 0, "tokens": 3842, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-13", "repeat": 0, "tokens": 4786, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-14", "repeat": 0, "tokens": 4521, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-15", "repeat": 0, "tokens": 4270, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-16", "repeat": 0, "tokens": 4664, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-17", "repeat": 0, "tokens": 3895, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-18", "repeat": 0, "tokens": 9492, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-19", "repeat": 0, "tokens": 3558, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-20", "repeat": 0, "tokens": 3905, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-21", "repeat": 0, "tokens": 3613, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-22", "repeat": 0, "tokens": 3509, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-23", "repeat": 0, "tokens": 7702, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-24", "repeat": 0, "tokens": 4505, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-25", "repeat": 0, "tokens": 8037, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-26", "repeat": 0, "tokens": 4082, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-27", "repeat": 0, "tokens": 4040, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-28", "repeat": 0, "tokens": 3713, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-29", "repeat": 0, "tokens": 8251, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-30", "repeat": 0, "tokens": 4496, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-31", "repeat": 0, "tokens": 3884, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-32", "repeat": 0, "tokens": 4011, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-33", "repeat": 0, "tokens": 4710, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-34", "repeat": 0, "tokens": 5245, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-35", "repeat": 0, "tokens": 5106, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-36", "repeat": 0, "tokens": 70, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "baseline", "case": "test-37", "repeat": 0, "tokens": 3987, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-38", "repeat": 0, "tokens": 4101, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-39", "repeat": 0, "tokens": 4955, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-40", "repeat": 0, "tokens": 3684, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-01", "repeat": 1, "tokens": 5052, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-02", "repeat": 1, "tokens": 4411, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-03", "repeat": 1, "tokens": 2242, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-04", "repeat": 1, "tokens": 2997, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-05", "repeat": 1, "tokens": 3818, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-06", "repeat": 1, "tokens": 4272, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-07", "repeat": 1, "tokens": 4530, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-08", "repeat": 1, "tokens": 3720, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-09", "repeat": 1, "tokens": 3785, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-10", "repeat": 1, "tokens": 3737, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-11", "repeat": 1, "tokens": 3816, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-12", "repeat": 1, "tokens": 76, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "baseline", "case": "test-13", "repeat": 1, "tokens": 4718, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-14", "repeat": 1, "tokens": 4270, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-15", "repeat": 1, "tokens": 3831, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-16", "repeat": 1, "tokens": 3592, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-17", "repeat": 1, "tokens": 4280, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-18", "repeat": 1, "tokens": 8101, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-19", "repeat": 1, "tokens": 3620, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-20", "repeat": 1, "tokens": 3586, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-21", "repeat": 1, "tokens": 3613, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-22", "repeat": 1, "tokens": 3506, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-23", "repeat": 1, "tokens": 2382, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-24", "repeat": 1, "tokens": 4520, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-25", "repeat": 1, "tokens": 2221, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-26", "repeat": 1, "tokens": 2263, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-27", "repeat": 1, "tokens": 3973, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-28", "repeat": 1, "tokens": 3977, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-29", "repeat": 1, "tokens": 7525, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-30", "repeat": 1, "tokens": 8311, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-31", "repeat": 1, "tokens": 4361, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-32", "repeat": 1, "tokens": 4037, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-33", "repeat": 1, "tokens": 4712, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-34", "repeat": 1, "tokens": 5085, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-35", "repeat": 1, "tokens": 5111, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-36", "repeat": 1, "tokens": 70, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "baseline", "case": "test-37", "repeat": 1, "tokens": 3890, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-38", "repeat": 1, "tokens": 4098, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-39", "repeat": 1, "tokens": 3929, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-40", "repeat": 1, "tokens": 75, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-01", "repeat": 2, "tokens": 9973, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-02", "repeat": 2, "tokens": 4344, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-03", "repeat": 2, "tokens": 4196, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-04", "repeat": 2, "tokens": 3286, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-05", "repeat": 2, "tokens": 3735, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-06", "repeat": 2, "tokens": 4288, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-07", "repeat": 2, "tokens": 4606, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-08", "repeat": 2, "tokens": 3710, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-09", "repeat": 2, "tokens": 3872, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-10", "repeat": 2, "tokens": 3710, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-11", "repeat": 2, "tokens": 3906, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-12", "repeat": 2, "tokens": 3783, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-13", "repeat": 2, "tokens": 4785, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-14", "repeat": 2, "tokens": 4270, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-15", "repeat": 2, "tokens": 4282, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-16", "repeat": 2, "tokens": 4663, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-17", "repeat": 2, "tokens": 3888, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-18", "repeat": 2, "tokens": 9537, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-19", "repeat": 2, "tokens": 3623, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-20", "repeat": 2, "tokens": 3869, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-21", "repeat": 2, "tokens": 4384, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-22", "repeat": 2, "tokens": 3508, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-23", "repeat": 2, "tokens": 3882, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-24", "repeat": 2, "tokens": 4597, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-25", "repeat": 2, "tokens": 4349, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-26", "repeat": 2, "tokens": 4082, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-27", "repeat": 2, "tokens": 3973, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-28", "repeat": 2, "tokens": 3131, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-29", "repeat": 2, "tokens": 8186, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-30", "repeat": 2, "tokens": 7352, "deterministic": false, "useful": false, "error": {"type": "ValueError", "code": "no_valid_candidate", "http_status": null}}
+{"variant": "baseline", "case": "test-31", "repeat": 2, "tokens": 3884, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-32", "repeat": 2, "tokens": 4039, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-33", "repeat": 2, "tokens": 4709, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-34", "repeat": 2, "tokens": 5245, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-35", "repeat": 2, "tokens": 5193, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-36", "repeat": 2, "tokens": 70, "deterministic": false, "useful": false, "error": {"type": "APIError", "code": "model_did_not_call_search", "http_status": null}}
+{"variant": "baseline", "case": "test-37", "repeat": 2, "tokens": 3987, "deterministic": true, "useful": true, "error": null}
+{"variant": "baseline", "case": "test-38", "repeat": 2, "tokens": 4016, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-39", "repeat": 2, "tokens": 2570, "deterministic": false, "useful": false, "error": null}
+{"variant": "baseline", "case": "test-40", "repeat": 2, "tokens": 126, "deterministic": true, "useful": true, "error": null}
+{
+  "n": 120,
+  "useful_count": 84,
+  "semantic_evaluation_coverage": 1.0,
+  "useful_rate": 0.7,
+  "deterministic_pass_rate": 0.7,
+  "schema_valid_rate": 0.8666666666666667,
+  "citations_valid_rate": 0.8666666666666667,
+  "required_fact_recall": 0.7027027027027027,
+  "retrieval_recall": 0.7657657657657657,
+  "context_recall": 0.7657657657657657,
+  "mrr": 0.6511583011583012,
+  "total_tokens": 514552,
+  "mean_tokens": 4287.933333333333,
+  "mean_latency_ms": 8756.3205,
+  "total_cost_rub": 334.4588,
+  "median_latency_ms": 6385.785,
+  "p95_latency_ms": 21425.4755,
+  "cost_per_useful_rub": 3.9816523809523807,
+  "cost_is_lower_bound": true,
+  "operational_failures": 16,
+  "false_answers_on_unanswerable": 0,
+  "name": "baseline",
+  "split": "test",
+  "repeats": 3,
+  "signature": "3f71d3a9d1c851d7c23fc3273790996f7925a1ae1a556bc86be4346e00eb8add",
+  "expected": 120,
+  "complete": true,
+  "config": {
+    "name": "baseline",
+    "top_k": 8,
+    "min_score": -1,
+    "deduplicate": false,
+    "short_prompt": false,
+    "examples": 3,
+    "max_output_tokens": 1200,
+    "context_byte_budget": 40000,
+    "max_search_calls": 1,
+    "candidates": 1,
+    "max_total_tokens": 100000,
+    "max_request_byte_tokens": 120000,
+    "temperature": 0.01,
+    "max_repairs": 1,
+    "schema_version": "answer-1.0",
+    "prompt_version": "1.0"
+  },
+  "judge_admitted": true,
+  "judge_total_tokens": 169540,
+  "judge_total_cost_rub": 110.201
+}

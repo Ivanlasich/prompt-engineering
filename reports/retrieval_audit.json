@@ -1,0 +1,2919 @@
+{
+  "kind": "local_lexical_retrieval_only_not_LLM_quality_or_token_measurement",
+  "filter_policy": "year extracted from user question by a fixed regex; no gold metadata used by retrieval",
+  "selection_split": "dev",
+  "corpus_version": "9c9d94e2601b412f5f033ad7b3cd81db1d3d66feb5b862d17d509941f6ac6257",
+  "dev_candidates": [
+    {
+      "top_k": 2,
+      "recall": 0.65625,
+      "mrr": 0.625,
+      "answerable_cases": 16,
+      "mean_context_bytes": 5900.7,
+      "rows": [
+        {
+          "case_id": "dev-01",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "raw_context_bytes": 4467,
+          "selected_context_bytes": 4467
+        },
+        {
+          "case_id": "dev-02",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "raw_context_bytes": 4467,
+          "selected_context_bytes": 4467
+        },
+        {
+          "case_id": "dev-03",
+          "k": 2,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "raw_context_bytes": 4467,
+          "selected_context_bytes": 4467
+        },
+        {
+          "case_id": "dev-04",
+          "k": 2,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001"
+          ],
+          "raw_context_bytes": 4467,
+          "selected_context_bytes": 4467
+        },
+        {
+          "case_id": "dev-05",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003"
+          ],
+          "raw_context_bytes": 5497,
+          "selected_context_bytes": 5497
+        },
+        {
+          "case_id": "dev-06",
+          "k": 2,
+          "recall": 0.5,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064"
+          ],
+          "raw_context_bytes": 4216,
+          "selected_context_bytes": 4216
+        },
+        {
+          "case_id": "dev-07",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048"
+          ],
+          "raw_context_bytes": 3977,
+          "selected_context_bytes": 3977
+        },
+        {
+          "case_id": "dev-08",
+          "k": 2,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090"
+          ],
+          "raw_context_bytes": 4708,
+          "selected_context_bytes": 4708
+        },
+        {
+          "case_id": "dev-09",
+          "k": 2,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026"
+          ],
+          "raw_context_bytes": 3328,
+          "selected_context_bytes": 3328
+        },
+        {
+          "case_id": "dev-10",
+          "k": 2,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000"
+          ],
+          "raw_context_bytes": 3844,
+          "selected_context_bytes": 3844
+        },
+        {
+          "case_id": "dev-11",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001"
+          ],
+          "raw_context_bytes": 7371,
+          "selected_context_bytes": 7371
+        },
+        {
+          "case_id": "dev-12",
+          "k": 2,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006"
+          ],
+          "raw_context_bytes": 5812,
+          "selected_context_bytes": 5812
+        },
+        {
+          "case_id": "dev-13",
+          "k": 2,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003"
+          ],
+          "raw_context_bytes": 8810,
+          "selected_context_bytes": 8810
+        },
+        {
+          "case_id": "dev-14",
+          "k": 2,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003"
+          ],
+          "raw_context_bytes": 8810,
+          "selected_context_bytes": 8810
+        },
+        {
+          "case_id": "dev-15",
+          "k": 2,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000"
+          ],
+          "raw_context_bytes": 6540,
+          "selected_context_bytes": 6540
+        },
+        {
+          "case_id": "dev-16",
+          "k": 2,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001"
+          ],
+          "raw_context_bytes": 7020,
+          "selected_context_bytes": 7020
+        },
+        {
+          "case_id": "dev-17",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001"
+          ],
+          "raw_context_bytes": 7326,
+          "selected_context_bytes": 7326
+        },
+        {
+          "case_id": "dev-18",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001"
+          ],
+          "raw_context_bytes": 7326,
+          "selected_context_bytes": 7326
+        },
+        {
+          "case_id": "dev-19",
+          "k": 2,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002"
+          ],
+          "raw_context_bytes": 8235,
+          "selected_context_bytes": 8235
+        },
+        {
+          "case_id": "dev-20",
+          "k": 2,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001"
+          ],
+          "raw_context_bytes": 7326,
+          "selected_context_bytes": 7326
+        }
+      ]
+    },
+    {
+      "top_k": 4,
+      "recall": 0.65625,
+      "mrr": 0.625,
+      "answerable_cases": 16,
+      "mean_context_bytes": 12593.6,
+      "rows": [
+        {
+          "case_id": "dev-01",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005"
+          ],
+          "raw_context_bytes": 11080,
+          "selected_context_bytes": 11080
+        },
+        {
+          "case_id": "dev-02",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007"
+          ],
+          "raw_context_bytes": 12619,
+          "selected_context_bytes": 12619
+        },
+        {
+          "case_id": "dev-03",
+          "k": 4,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005"
+          ],
+          "raw_context_bytes": 11080,
+          "selected_context_bytes": 11080
+        },
+        {
+          "case_id": "dev-04",
+          "k": 4,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0086",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0008"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0086",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0008"
+          ],
+          "raw_context_bytes": 12471,
+          "selected_context_bytes": 12471
+        },
+        {
+          "case_id": "dev-05",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0055",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0083"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0055",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0083"
+          ],
+          "raw_context_bytes": 11093,
+          "selected_context_bytes": 11093
+        },
+        {
+          "case_id": "dev-06",
+          "k": 4,
+          "recall": 0.5,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0021",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0021",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082"
+          ],
+          "raw_context_bytes": 9770,
+          "selected_context_bytes": 9770
+        },
+        {
+          "case_id": "dev-07",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0075",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0075",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076"
+          ],
+          "raw_context_bytes": 7743,
+          "selected_context_bytes": 7743
+        },
+        {
+          "case_id": "dev-08",
+          "k": 4,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0043"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0043"
+          ],
+          "raw_context_bytes": 8699,
+          "selected_context_bytes": 8699
+        },
+        {
+          "case_id": "dev-09",
+          "k": 4,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026",
+            "TRANSFER_2013_06_21_OC_energy.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026",
+            "TRANSFER_2013_06_21_OC_energy.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008"
+          ],
+          "raw_context_bytes": 8780,
+          "selected_context_bytes": 8780
+        },
+        {
+          "case_id": "dev-10",
+          "k": 4,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0020"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0020"
+          ],
+          "raw_context_bytes": 12264,
+          "selected_context_bytes": 12264
+        },
+        {
+          "case_id": "dev-11",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0037",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0036"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0037",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0036"
+          ],
+          "raw_context_bytes": 13474,
+          "selected_context_bytes": 13474
+        },
+        {
+          "case_id": "dev-12",
+          "k": 4,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0060"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0060"
+          ],
+          "raw_context_bytes": 11735,
+          "selected_context_bytes": 11735
+        },
+        {
+          "case_id": "dev-13",
+          "k": 4,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0059",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0060"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0059",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0060"
+          ],
+          "raw_context_bytes": 16096,
+          "selected_context_bytes": 16096
+        },
+        {
+          "case_id": "dev-14",
+          "k": 4,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000"
+          ],
+          "raw_context_bytes": 15408,
+          "selected_context_bytes": 15408
+        },
+        {
+          "case_id": "dev-15",
+          "k": 4,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001"
+          ],
+          "raw_context_bytes": 15773,
+          "selected_context_bytes": 15773
+        },
+        {
+          "case_id": "dev-16",
+          "k": 4,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014"
+          ],
+          "raw_context_bytes": 17087,
+          "selected_context_bytes": 17087
+        },
+        {
+          "case_id": "dev-17",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018"
+          ],
+          "raw_context_bytes": 15240,
+          "selected_context_bytes": 15240
+        },
+        {
+          "case_id": "dev-18",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018"
+          ],
+          "raw_context_bytes": 15240,
+          "selected_context_bytes": 15240
+        },
+        {
+          "case_id": "dev-19",
+          "k": 4,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0045"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0045"
+          ],
+          "raw_context_bytes": 13184,
+          "selected_context_bytes": 10625
+        },
+        {
+          "case_id": "dev-20",
+          "k": 4,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016"
+          ],
+          "raw_context_bytes": 13036,
+          "selected_context_bytes": 13036
+        }
+      ]
+    },
+    {
+      "top_k": 8,
+      "recall": 0.71875,
+      "mrr": 0.6375,
+      "answerable_cases": 16,
+      "mean_context_bytes": 26760.15,
+      "rows": [
+        {
+          "case_id": "dev-01",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0031",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0095",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0031",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0095"
+          ],
+          "raw_context_bytes": 22964,
+          "selected_context_bytes": 18115
+        },
+        {
+          "case_id": "dev-02",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0017",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0016",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0035"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0017"
+          ],
+          "raw_context_bytes": 27415,
+          "selected_context_bytes": 17020
+        },
+        {
+          "case_id": "dev-03",
+          "k": 8,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0002",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0003",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0004",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0029"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0002"
+          ],
+          "raw_context_bytes": 29282,
+          "selected_context_bytes": 15584
+        },
+        {
+          "case_id": "dev-04",
+          "k": 8,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0086",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0008",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0087",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0009",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0086",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0008",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0087"
+          ],
+          "raw_context_bytes": 30481,
+          "selected_context_bytes": 17310
+        },
+        {
+          "case_id": "dev-05",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0055",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0083",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0084",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0066",
+            "TRANSFER_2012_06_22_OC_it.txt#0004",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0070"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0055",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0083",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0084",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0066"
+          ],
+          "raw_context_bytes": 26982,
+          "selected_context_bytes": 18247
+        },
+        {
+          "case_id": "dev-06",
+          "k": 8,
+          "recall": 0.5,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0021",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0081",
+            "TRANSFER_2012_06_22_OC_it.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0077",
+            "TRANSFER_2012_06_23_OC_environment.txt#0041"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0021",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0081",
+            "TRANSFER_2012_06_22_OC_it.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0077"
+          ],
+          "raw_context_bytes": 19661,
+          "selected_context_bytes": 16370
+        },
+        {
+          "case_id": "dev-07",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0075",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0018",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0041",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0080",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0042"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0075",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0018",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0041",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0080",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0042"
+          ],
+          "raw_context_bytes": 16248,
+          "selected_context_bytes": 16248
+        },
+        {
+          "case_id": "dev-08",
+          "k": 8,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0043",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0030",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0053"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0043",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0030",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0053"
+          ],
+          "raw_context_bytes": 16640,
+          "selected_context_bytes": 16640
+        },
+        {
+          "case_id": "dev-09",
+          "k": 8,
+          "recall": 1,
+          "mrr": 0.2,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026",
+            "TRANSFER_2013_06_21_OC_energy.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0007",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0003",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0002"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026",
+            "TRANSFER_2013_06_21_OC_energy.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001"
+          ],
+          "raw_context_bytes": 28822,
+          "selected_context_bytes": 13759
+        },
+        {
+          "case_id": "dev-10",
+          "k": 8,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0020",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0026",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0022",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0023"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0020",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0026"
+          ],
+          "raw_context_bytes": 29118,
+          "selected_context_bytes": 15329
+        },
+        {
+          "case_id": "dev-11",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0037",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0036",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0032",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0044",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0038",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0035"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0037",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0036",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0032"
+          ],
+          "raw_context_bytes": 29947,
+          "selected_context_bytes": 16538
+        },
+        {
+          "case_id": "dev-12",
+          "k": 8,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0060",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0060",
+            "TRANSFER_2013_06_21_OC_energy.txt#0005",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0007",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0060",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0060",
+            "TRANSFER_2013_06_21_OC_energy.txt#0005"
+          ],
+          "raw_context_bytes": 24803,
+          "selected_context_bytes": 18336
+        },
+        {
+          "case_id": "dev-13",
+          "k": 8,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0059",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0060",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0008",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0059",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0060",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0008"
+          ],
+          "raw_context_bytes": 28613,
+          "selected_context_bytes": 17946
+        },
+        {
+          "case_id": "dev-14",
+          "k": 8,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0011",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0010",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0006",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000"
+          ],
+          "raw_context_bytes": 33413,
+          "selected_context_bytes": 15408
+        },
+        {
+          "case_id": "dev-15",
+          "k": 8,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0006",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0012",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001"
+          ],
+          "raw_context_bytes": 33995,
+          "selected_context_bytes": 15773
+        },
+        {
+          "case_id": "dev-16",
+          "k": 8,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0013",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0067",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0068",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0054"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014"
+          ],
+          "raw_context_bytes": 34306,
+          "selected_context_bytes": 17087
+        },
+        {
+          "case_id": "dev-17",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_18_OC_it.txt#0064",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_18_OC_it.txt#0065"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002"
+          ],
+          "raw_context_bytes": 24874,
+          "selected_context_bytes": 18708
+        },
+        {
+          "case_id": "dev-18",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002"
+          ],
+          "raw_context_bytes": 26124,
+          "selected_context_bytes": 18708
+        },
+        {
+          "case_id": "dev-19",
+          "k": 8,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0045",
+            "TRANSFER_2016_06_18_OC_it.txt#0012",
+            "TRANSFER_2016_06_18_OC_it.txt#0011",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0044",
+            "TRANSFER_2016_06_18_OC_it.txt#0088"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0045",
+            "TRANSFER_2016_06_18_OC_it.txt#0012",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0044"
+          ],
+          "raw_context_bytes": 28090,
+          "selected_context_bytes": 17571
+        },
+        {
+          "case_id": "dev-20",
+          "k": 8,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0009",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0004"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015"
+          ],
+          "raw_context_bytes": 23425,
+          "selected_context_bytes": 18210
+        }
+      ]
+    },
+    {
+      "top_k": 12,
+      "recall": 0.71875,
+      "mrr": 0.6375,
+      "answerable_cases": 16,
+      "mean_context_bytes": 39348.4,
+      "rows": [
+        {
+          "case_id": "dev-01",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0031",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0095",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0030",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0029",
+            "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0003",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0094"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0031",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0095"
+          ],
+          "raw_context_bytes": 36630,
+          "selected_context_bytes": 18115
+        },
+        {
+          "case_id": "dev-02",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0017",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0016",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0035",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0013",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0014",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0015"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0017"
+          ],
+          "raw_context_bytes": 44798,
+          "selected_context_bytes": 17020
+        },
+        {
+          "case_id": "dev-03",
+          "k": 12,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0002",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0003",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0004",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0029",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0032",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0018",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0034"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0002",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0028"
+          ],
+          "raw_context_bytes": 41633,
+          "selected_context_bytes": 17977
+        },
+        {
+          "case_id": "dev-04",
+          "k": 12,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0086",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0008",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0087",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0009",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0006",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0007",
+            "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0027",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0005",
+            "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0020",
+            "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0005"
+          ],
+          "selected_ids": [
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0000",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0001",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0086",
+            "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0008",
+            "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0087",
+            "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0027"
+          ],
+          "raw_context_bytes": 36647,
+          "selected_context_bytes": 18062
+        },
+        {
+          "case_id": "dev-05",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0055",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0083",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0084",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0066",
+            "TRANSFER_2012_06_22_OC_it.txt#0004",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0070",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0017",
+            "TRANSFER_2012_06_23_OC_environment.txt#0058",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0082",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0061"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_22_OC_it.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0055",
+            "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0083",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0084",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0066"
+          ],
+          "raw_context_bytes": 36215,
+          "selected_context_bytes": 18247
+        },
+        {
+          "case_id": "dev-06",
+          "k": 12,
+          "recall": 0.5,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0021",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0081",
+            "TRANSFER_2012_06_22_OC_it.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0077",
+            "TRANSFER_2012_06_23_OC_environment.txt#0041",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0020",
+            "TRANSFER_2012_06_22_OC_it.txt#0059",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0039",
+            "TRANSFER_2012_06_23_OC_environment.txt#0008"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0063",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0064",
+            "TRANSFER_2012_06_23_PRAVLENIE_education.txt#0021",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0081",
+            "TRANSFER_2012_06_22_OC_it.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0077"
+          ],
+          "raw_context_bytes": 31586,
+          "selected_context_bytes": 16370
+        },
+        {
+          "case_id": "dev-07",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0075",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0018",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0041",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0080",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0042",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0019",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0033",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0074",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0059"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0075",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0018",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0041",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0080",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0042",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0033"
+          ],
+          "raw_context_bytes": 23751,
+          "selected_context_bytes": 17257
+        },
+        {
+          "case_id": "dev-08",
+          "k": 12,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0043",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0030",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0053",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0080",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0001",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0082",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0061"
+          ],
+          "selected_ids": [
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0000",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0090",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0003",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0043",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0048",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0030",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0076",
+            "TRANSFER_2012_06_23_PRAVLENIE_startup.txt#0053"
+          ],
+          "raw_context_bytes": 25006,
+          "selected_context_bytes": 16640
+        },
+        {
+          "case_id": "dev-09",
+          "k": 12,
+          "recall": 1,
+          "mrr": 0.2,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026",
+            "TRANSFER_2013_06_21_OC_energy.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0007",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0003",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0002",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0019",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0044",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0067",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0004"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0026",
+            "TRANSFER_2013_06_21_OC_energy.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0019",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0067"
+          ],
+          "raw_context_bytes": 41675,
+          "selected_context_bytes": 17871
+        },
+        {
+          "case_id": "dev-10",
+          "k": 12,
+          "recall": 1,
+          "mrr": 0.5,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0020",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0026",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0025",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0022",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0023",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0024",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0021",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0019",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0002"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0027",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0020",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0026",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0019"
+          ],
+          "raw_context_bytes": 45702,
+          "selected_context_bytes": 17175
+        },
+        {
+          "case_id": "dev-11",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0037",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0036",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0032",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0044",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0038",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0035",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0034",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0033",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0031",
+            "TRANSFER_2013_06_21_PRAVLENIE_education.txt#0035"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0000",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0001",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0037",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0036",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0032"
+          ],
+          "raw_context_bytes": 45304,
+          "selected_context_bytes": 16538
+        },
+        {
+          "case_id": "dev-12",
+          "k": 12,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0060",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0060",
+            "TRANSFER_2013_06_21_OC_energy.txt#0005",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0007",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0009",
+            "TRANSFER_2013_06_21_OC_energy.txt#0053",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0016",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0003",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0057"
+          ],
+          "selected_ids": [
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0056",
+            "TRANSFER_2013_06_21_OC_energy.txt#0006",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0008",
+            "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0060",
+            "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0060",
+            "TRANSFER_2013_06_21_OC_energy.txt#0005"
+          ],
+          "raw_context_bytes": 40486,
+          "selected_context_bytes": 18336
+        },
+        {
+          "case_id": "dev-13",
+          "k": 12,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0059",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0060",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0008",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0006",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0066",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_OC_education.txt#0060"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0059",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0060",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0008"
+          ],
+          "raw_context_bytes": 41719,
+          "selected_context_bytes": 17946
+        },
+        {
+          "case_id": "dev-14",
+          "k": 12,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0011",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0010",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0006",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0053",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0052",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0026"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0026"
+          ],
+          "raw_context_bytes": 51453,
+          "selected_context_bytes": 18206
+        },
+        {
+          "case_id": "dev-15",
+          "k": 12,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0006",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0012",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0013",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0008",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0054"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0007",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017"
+          ],
+          "raw_context_bytes": 45453,
+          "selected_context_bytes": 17368
+        },
+        {
+          "case_id": "dev-16",
+          "k": 12,
+          "recall": 0,
+          "mrr": 0,
+          "raw_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0013",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0067",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0068",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0054",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0062",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0053",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0024",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0022"
+          ],
+          "selected_ids": [
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+            "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+            "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014"
+          ],
+          "raw_context_bytes": 49193,
+          "selected_context_bytes": 17087
+        },
+        {
+          "case_id": "dev-17",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_18_OC_it.txt#0064",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_18_OC_it.txt#0065",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0009",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0004"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002"
+          ],
+          "raw_context_bytes": 35263,
+          "selected_context_bytes": 18708
+        },
+        {
+          "case_id": "dev-18",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0009",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0004",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0010",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0014"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0018",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002"
+          ],
+          "raw_context_bytes": 36736,
+          "selected_context_bytes": 18708
+        },
+        {
+          "case_id": "dev-19",
+          "k": 12,
+          "recall": 1,
+          "mrr": 1.0,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0045",
+            "TRANSFER_2016_06_18_OC_it.txt#0012",
+            "TRANSFER_2016_06_18_OC_it.txt#0011",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0044",
+            "TRANSFER_2016_06_18_OC_it.txt#0088",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0046",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017",
+            "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0020",
+            "TRANSFER_2016_06_18_OC_it.txt#0089"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0045",
+            "TRANSFER_2016_06_18_OC_it.txt#0012",
+            "TRANSFER_2016_06_16_OC_infrastructure.txt#0044"
+          ],
+          "raw_context_bytes": 43027,
+          "selected_context_bytes": 17571
+        },
+        {
+          "case_id": "dev-20",
+          "k": 12,
+          "recall": null,
+          "mrr": null,
+          "raw_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0009",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0004",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0010",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0014",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0005",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0017"
+          ],
+          "selected_ids": [
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0000",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0001",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0002",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0016",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0003",
+            "TRANSFER_2016_06_16_PRAVLENIE_trade.txt#0015"
+          ],
+          "raw_context_bytes": 34691,
+          "selected_context_bytes": 18210
+        }
+      ]
+    }
+  ],
+  "selected_top_k": 8,
+  "test": {
+    "top_k": 8,
+    "recall": 0.7837837837837838,
+    "mrr": 0.670045045045045,
+    "answerable_cases": 37,
+    "mean_context_bytes": 24366.425,
+    "rows": [
+      {
+        "case_id": "test-01",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0000",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0099",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0090",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0091",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0007",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0002",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0040"
+        ],
+        "selected_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0000",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0099",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0090",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0091"
+        ],
+        "raw_context_bytes": 26728,
+        "selected_context_bytes": 17094
+      },
+      {
+        "case_id": "test-02",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0000",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0002",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0099",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0046",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0047",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0008",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0050"
+        ],
+        "selected_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0002",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0099",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0046",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0047"
+        ],
+        "raw_context_bytes": 26109,
+        "selected_context_bytes": 15998
+      },
+      {
+        "case_id": "test-03",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0000",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0059",
+          "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0021",
+          "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0034",
+          "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0058",
+          "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0035",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0019"
+        ],
+        "selected_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0000",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0059",
+          "TRANSFER_2011_06_16_STRATSESSION_oil.txt#0021",
+          "TRANSFER_2011_06_17_PRAVLENIE_digital.txt#0034"
+        ],
+        "raw_context_bytes": 27562,
+        "selected_context_bytes": 18558
+      },
+      {
+        "case_id": "test-04",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0002",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0067",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0046",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0031",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0079",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0069",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0034"
+        ],
+        "selected_ids": [
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0002",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0001",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0067",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0046",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0031",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0079",
+          "TRANSFER_2011_06_17_PRAVLENIE_film.txt#0034"
+        ],
+        "raw_context_bytes": 20609,
+        "selected_context_bytes": 17783
+      },
+      {
+        "case_id": "test-05",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_21_OC_energy.txt#0000",
+          "TRANSFER_2013_06_21_OC_energy.txt#0002",
+          "TRANSFER_2013_06_21_OC_energy.txt#0003",
+          "TRANSFER_2013_06_21_OC_energy.txt#0034",
+          "TRANSFER_2013_06_21_OC_energy.txt#0019",
+          "TRANSFER_2013_06_21_OC_energy.txt#0043",
+          "TRANSFER_2013_06_21_OC_energy.txt#0022"
+        ],
+        "selected_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_21_OC_energy.txt#0002",
+          "TRANSFER_2013_06_21_OC_energy.txt#0003",
+          "TRANSFER_2013_06_21_OC_energy.txt#0034",
+          "TRANSFER_2013_06_21_OC_energy.txt#0019"
+        ],
+        "raw_context_bytes": 23623,
+        "selected_context_bytes": 17854
+      },
+      {
+        "case_id": "test-06",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.5,
+        "raw_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0051",
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_21_OC_energy.txt#0052",
+          "TRANSFER_2013_06_21_OC_energy.txt#0005",
+          "TRANSFER_2013_06_21_OC_energy.txt#0002",
+          "TRANSFER_2013_06_21_OC_energy.txt#0054",
+          "TRANSFER_2013_06_21_OC_energy.txt#0000",
+          "TRANSFER_2013_06_21_OC_energy.txt#0050"
+        ],
+        "selected_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0051",
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_21_OC_energy.txt#0052",
+          "TRANSFER_2013_06_21_OC_energy.txt#0005",
+          "TRANSFER_2013_06_21_OC_energy.txt#0054",
+          "TRANSFER_2013_06_21_OC_energy.txt#0050"
+        ],
+        "raw_context_bytes": 23704,
+        "selected_context_bytes": 17748
+      },
+      {
+        "case_id": "test-07",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_21_OC_energy.txt#0002",
+          "TRANSFER_2013_06_21_OC_energy.txt#0000",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0010",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0011",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0050",
+          "TRANSFER_2013_06_21_OC_energy.txt#0003",
+          "TRANSFER_2013_06_21_PRAVLENIE_trade.txt#0084"
+        ],
+        "selected_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_21_OC_energy.txt#0002",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0010",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0011",
+          "TRANSFER_2013_06_21_OC_energy.txt#0003"
+        ],
+        "raw_context_bytes": 26806,
+        "selected_context_bytes": 18567
+      },
+      {
+        "case_id": "test-08",
+        "k": 8,
+        "recall": null,
+        "mrr": null,
+        "raw_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0000",
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0010",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0011",
+          "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0001",
+          "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0020",
+          "TRANSFER_2013_06_21_OC_energy.txt#0010",
+          "TRANSFER_2013_06_21_OC_energy.txt#0030"
+        ],
+        "selected_ids": [
+          "TRANSFER_2013_06_21_OC_energy.txt#0000",
+          "TRANSFER_2013_06_21_OC_energy.txt#0001",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0010",
+          "TRANSFER_2013_06_22_PRAVLENIE_environment.txt#0011",
+          "TRANSFER_2013_06_22_PRAVLENIE_education.txt#0001"
+        ],
+        "raw_context_bytes": 29691,
+        "selected_context_bytes": 16435
+      },
+      {
+        "case_id": "test-09",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0000",
+          "TRANSFER_2014_05_24_OC_it.txt#0021",
+          "TRANSFER_2014_05_24_OC_it.txt#0007",
+          "TRANSFER_2014_05_24_OC_it.txt#0020",
+          "TRANSFER_2014_05_22_PRAVLENIE_innovation.txt#0029",
+          "TRANSFER_2014_05_22_PRAVLENIE_innovation.txt#0028",
+          "TRANSFER_2014_05_24_OC_it.txt#0059",
+          "TRANSFER_2014_05_24_OC_it.txt#0042"
+        ],
+        "selected_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0000",
+          "TRANSFER_2014_05_24_OC_it.txt#0021",
+          "TRANSFER_2014_05_24_OC_it.txt#0007",
+          "TRANSFER_2014_05_24_OC_it.txt#0020",
+          "TRANSFER_2014_05_22_PRAVLENIE_innovation.txt#0029",
+          "TRANSFER_2014_05_22_PRAVLENIE_innovation.txt#0028"
+        ],
+        "raw_context_bytes": 21960,
+        "selected_context_bytes": 18115
+      },
+      {
+        "case_id": "test-10",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0000",
+          "TRANSFER_2014_05_24_OC_it.txt#0042",
+          "TRANSFER_2014_05_24_OC_it.txt#0043",
+          "TRANSFER_2014_05_24_OC_it.txt#0021",
+          "TRANSFER_2014_05_24_OC_it.txt#0006",
+          "TRANSFER_2014_05_24_OC_it.txt#0007",
+          "TRANSFER_2014_05_24_OC_it.txt#0093",
+          "TRANSFER_2014_05_24_OC_it.txt#0020"
+        ],
+        "selected_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0000",
+          "TRANSFER_2014_05_24_OC_it.txt#0042",
+          "TRANSFER_2014_05_24_OC_it.txt#0043",
+          "TRANSFER_2014_05_24_OC_it.txt#0021",
+          "TRANSFER_2014_05_24_OC_it.txt#0006",
+          "TRANSFER_2014_05_24_OC_it.txt#0007",
+          "TRANSFER_2014_05_24_OC_it.txt#0093"
+        ],
+        "raw_context_bytes": 20630,
+        "selected_context_bytes": 17529
+      },
+      {
+        "case_id": "test-11",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0000",
+          "TRANSFER_2014_05_24_OC_it.txt#0033",
+          "TRANSFER_2014_05_24_OC_it.txt#0001",
+          "TRANSFER_2014_05_24_OC_it.txt#0048",
+          "TRANSFER_2014_05_24_OC_it.txt#0032",
+          "TRANSFER_2014_05_24_OC_it.txt#0044",
+          "TRANSFER_2014_05_24_OC_it.txt#0045",
+          "TRANSFER_2014_05_24_OC_it.txt#0042"
+        ],
+        "selected_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0000",
+          "TRANSFER_2014_05_24_OC_it.txt#0033",
+          "TRANSFER_2014_05_24_OC_it.txt#0001",
+          "TRANSFER_2014_05_24_OC_it.txt#0048",
+          "TRANSFER_2014_05_24_OC_it.txt#0032",
+          "TRANSFER_2014_05_24_OC_it.txt#0044",
+          "TRANSFER_2014_05_24_OC_it.txt#0045",
+          "TRANSFER_2014_05_24_OC_it.txt#0042"
+        ],
+        "raw_context_bytes": 18187,
+        "selected_context_bytes": 18187
+      },
+      {
+        "case_id": "test-12",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0005",
+          "TRANSFER_2014_05_24_OC_it.txt#0015",
+          "TRANSFER_2014_05_24_OC_it.txt#0092",
+          "TRANSFER_2014_05_24_OC_it.txt#0006",
+          "TRANSFER_2014_05_24_OC_it.txt#0069",
+          "TRANSFER_2014_05_24_OC_it.txt#0059",
+          "TRANSFER_2014_05_24_OC_it.txt#0016",
+          "TRANSFER_2014_05_22_PRAVLENIE_energy.txt#0014"
+        ],
+        "selected_ids": [
+          "TRANSFER_2014_05_24_OC_it.txt#0005",
+          "TRANSFER_2014_05_24_OC_it.txt#0015",
+          "TRANSFER_2014_05_24_OC_it.txt#0092",
+          "TRANSFER_2014_05_24_OC_it.txt#0006",
+          "TRANSFER_2014_05_24_OC_it.txt#0069",
+          "TRANSFER_2014_05_24_OC_it.txt#0059",
+          "TRANSFER_2014_05_24_OC_it.txt#0016",
+          "TRANSFER_2014_05_22_PRAVLENIE_energy.txt#0014"
+        ],
+        "raw_context_bytes": 16032,
+        "selected_context_bytes": 16032
+      },
+      {
+        "case_id": "test-13",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0016",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0015",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0010",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0011",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0016",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0015",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0010"
+        ],
+        "raw_context_bytes": 28657,
+        "selected_context_bytes": 16900
+      },
+      {
+        "case_id": "test-14",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0029",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0010",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0020",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0021",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0029",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0010",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0020",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023"
+        ],
+        "raw_context_bytes": 23274,
+        "selected_context_bytes": 18197
+      },
+      {
+        "case_id": "test-15",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0021",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0015",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0029",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0010"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0023",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0021",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0015"
+        ],
+        "raw_context_bytes": 24709,
+        "selected_context_bytes": 18149
+      },
+      {
+        "case_id": "test-16",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0020",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0021",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0014",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0015",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0010"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0008",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0009",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0020",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0021",
+          "TRANSFER_2015_06_18_STRATSESSION_nuclear.txt#0017"
+        ],
+        "raw_context_bytes": 29015,
+        "selected_context_bytes": 14914
+      },
+      {
+        "case_id": "test-17",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0044",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0020",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0004",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0013",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0041",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0045",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0003",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0021"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0044",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0020",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0004",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0013",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0041",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0045"
+        ],
+        "raw_context_bytes": 22257,
+        "selected_context_bytes": 16910
+      },
+      {
+        "case_id": "test-18",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0000",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0001",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0014",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0017",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0002",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0018",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0032",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0031"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0000",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0001",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0014",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0017",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0002"
+        ],
+        "raw_context_bytes": 26610,
+        "selected_context_bytes": 18297
+      },
+      {
+        "case_id": "test-19",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0000",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0001",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0021",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0008",
+          "TRANSFER_2016_06_18_OC_it.txt#0029",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0007",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0035",
+          "TRANSFER_2016_06_18_OC_it.txt#0064"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0000",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0001",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0021",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0008",
+          "TRANSFER_2016_06_18_OC_it.txt#0029",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0007"
+        ],
+        "raw_context_bytes": 20766,
+        "selected_context_bytes": 18542
+      },
+      {
+        "case_id": "test-20",
+        "k": 8,
+        "recall": null,
+        "mrr": null,
+        "raw_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0060",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0008",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0007",
+          "TRANSFER_2016_06_18_OC_it.txt#0061",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0044",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0041",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0050",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0018"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0060",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0008",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0007",
+          "TRANSFER_2016_06_18_OC_it.txt#0061",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0044",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0041",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0050"
+        ],
+        "raw_context_bytes": 21710,
+        "selected_context_bytes": 18278
+      },
+      {
+        "case_id": "test-21",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0000",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0001",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0027",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0068",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0052",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0008",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0012"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0000",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0001",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0027",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0068",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0052",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0008",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0012"
+        ],
+        "raw_context_bytes": 17373,
+        "selected_context_bytes": 17373
+      },
+      {
+        "case_id": "test-22",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.5,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0046",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0000",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0001",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0010",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0045",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0052",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0044"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0046",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0000",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0001",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0010",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0045",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0052",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0044"
+        ],
+        "raw_context_bytes": 17605,
+        "selected_context_bytes": 17605
+      },
+      {
+        "case_id": "test-23",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0046",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0045",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0010",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0005",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0010",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0016",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0011"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0046",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0045",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0010",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0005",
+          "TRANSFER_2016_06_17_PRAVLENIE_oil.txt#0010"
+        ],
+        "raw_context_bytes": 22525,
+        "selected_context_bytes": 16839
+      },
+      {
+        "case_id": "test-24",
+        "k": 8,
+        "recall": 0,
+        "mrr": 0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0018",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0027",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0068",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0028",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0015",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0029",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0052"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0058",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0018",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0027",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0068",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0028",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0052"
+        ],
+        "raw_context_bytes": 26544,
+        "selected_context_bytes": 17627
+      },
+      {
+        "case_id": "test-25",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_18_OC_it.txt#0032",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_18_OC_it.txt#0015",
+          "TRANSFER_2016_06_18_OC_it.txt#0008",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0033",
+          "TRANSFER_2016_06_18_OC_it.txt#0016"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_18_OC_it.txt#0032",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_18_OC_it.txt#0015",
+          "TRANSFER_2016_06_18_OC_it.txt#0008"
+        ],
+        "raw_context_bytes": 23608,
+        "selected_context_bytes": 16398
+      },
+      {
+        "case_id": "test-26",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_18_OC_it.txt#0010",
+          "TRANSFER_2016_06_18_OC_it.txt#0008",
+          "TRANSFER_2016_06_18_OC_it.txt#0015",
+          "TRANSFER_2016_06_18_OC_it.txt#0002",
+          "TRANSFER_2016_06_18_OC_it.txt#0007"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_18_OC_it.txt#0010",
+          "TRANSFER_2016_06_18_OC_it.txt#0008",
+          "TRANSFER_2016_06_18_OC_it.txt#0015",
+          "TRANSFER_2016_06_18_OC_it.txt#0002"
+        ],
+        "raw_context_bytes": 21733,
+        "selected_context_bytes": 18072
+      },
+      {
+        "case_id": "test-27",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0056",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0057",
+          "TRANSFER_2016_06_18_OC_it.txt#0014",
+          "TRANSFER_2016_06_18_OC_it.txt#0002",
+          "TRANSFER_2016_06_18_OC_it.txt#0089"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0056",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0057",
+          "TRANSFER_2016_06_18_OC_it.txt#0014"
+        ],
+        "raw_context_bytes": 24153,
+        "selected_context_bytes": 17913
+      },
+      {
+        "case_id": "test-28",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_18_OC_it.txt#0072",
+          "TRANSFER_2016_06_18_OC_it.txt#0103",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_18_OC_it.txt#0010",
+          "TRANSFER_2016_06_18_OC_it.txt#0038",
+          "TRANSFER_2016_06_18_OC_it.txt#0106"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_18_OC_it.txt#0000",
+          "TRANSFER_2016_06_18_OC_it.txt#0001",
+          "TRANSFER_2016_06_18_OC_it.txt#0072",
+          "TRANSFER_2016_06_18_OC_it.txt#0103",
+          "TRANSFER_2016_06_18_OC_it.txt#0102",
+          "TRANSFER_2016_06_18_OC_it.txt#0010"
+        ],
+        "raw_context_bytes": 23603,
+        "selected_context_bytes": 18448
+      },
+      {
+        "case_id": "test-29",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.3333333333333333,
+        "raw_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0020",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0019",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0021",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0024",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0023",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_OC_it.txt#0051"
+        ],
+        "selected_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0020",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0019",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0021",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0024",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001"
+        ],
+        "raw_context_bytes": 27435,
+        "selected_context_bytes": 18514
+      },
+      {
+        "case_id": "test-30",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0003",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0004",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0020",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0019",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0022",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0021"
+        ],
+        "selected_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0003",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0004",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0020",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0019"
+        ],
+        "raw_context_bytes": 23634,
+        "selected_context_bytes": 18140
+      },
+      {
+        "case_id": "test-31",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.3333333333333333,
+        "raw_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0003",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0022",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0005",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0039",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0002",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0040"
+        ],
+        "selected_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0003",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0022",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0005",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0039",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0002"
+        ],
+        "raw_context_bytes": 22981,
+        "selected_context_bytes": 17928
+      },
+      {
+        "case_id": "test-32",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0020",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0022",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0021",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0023",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0003",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0004"
+        ],
+        "selected_ids": [
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0000",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0001",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0020",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0022",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0021",
+          "TRANSFER_2012_06_22_PRAVLENIE_digital.txt#0003"
+        ],
+        "raw_context_bytes": 25494,
+        "selected_context_bytes": 18236
+      },
+      {
+        "case_id": "test-33",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.5,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0012",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0055",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0062"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0055"
+        ],
+        "raw_context_bytes": 27898,
+        "selected_context_bytes": 16099
+      },
+      {
+        "case_id": "test-34",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0011",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0012",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0011",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0012"
+        ],
+        "raw_context_bytes": 34813,
+        "selected_context_bytes": 16997
+      },
+      {
+        "case_id": "test-35",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0008",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0011",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0018",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0000"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0002",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003"
+        ],
+        "raw_context_bytes": 31815,
+        "selected_context_bytes": 17790
+      },
+      {
+        "case_id": "test-36",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.125,
+        "raw_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0063",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0062",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0009",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0003",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0006",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0001"
+        ],
+        "selected_ids": [
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0063",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0005",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0004",
+          "TRANSFER_2015_06_18_PRAVLENIE_cybersecurity.txt#0062"
+        ],
+        "raw_context_bytes": 33652,
+        "selected_context_bytes": 16090
+      },
+      {
+        "case_id": "test-37",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0000",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0017",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0018",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0058",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0057",
+          "TRANSFER_2016_06_18_OC_it.txt#0071",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0026"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0000",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0017",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0018",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0058",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0057",
+          "TRANSFER_2016_06_18_OC_it.txt#0071"
+        ],
+        "raw_context_bytes": 18089,
+        "selected_context_bytes": 15456
+      },
+      {
+        "case_id": "test-38",
+        "k": 8,
+        "recall": 1,
+        "mrr": 0.5,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0043",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0002",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0007",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0042",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0040",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0015",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0012"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0043",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0002",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0007",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0042",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0040"
+        ],
+        "raw_context_bytes": 25711,
+        "selected_context_bytes": 18173
+      },
+      {
+        "case_id": "test-39",
+        "k": 8,
+        "recall": 1,
+        "mrr": 1.0,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0024",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0027",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0002",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0026",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0018",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0025",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0019"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0024",
+          "TRANSFER_2016_06_16_OC_infrastructure.txt#0027",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0002",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0026"
+        ],
+        "raw_context_bytes": 26262,
+        "selected_context_bytes": 18057
+      },
+      {
+        "case_id": "test-40",
+        "k": 8,
+        "recall": null,
+        "mrr": null,
+        "raw_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0000",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0017",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0018",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0002",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0049",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0048",
+          "TRANSFER_2016_06_16_OC_nuclear.txt#0007"
+        ],
+        "selected_ids": [
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0000",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0001",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0017",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0018",
+          "TRANSFER_2016_06_16_STRATSESSION_smartcity.txt#0002",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0049",
+          "TRANSFER_2016_06_16_STRATSESSION_environment.txt#0048"
+        ],
+        "raw_context_bytes": 21090,
+        "selected_context_bytes": 18276
+      }
+    ]
+  }
+}

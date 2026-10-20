@@ -1,0 +1,28 @@
+{
+  "source": "clean Git-index export, installed in an isolated Python environment",
+  "verified_source_tree": "390f5491b03cc9d6c84683a5054633825593f83b",
+  "python": "3.12.14",
+  "dependency_lock_install": "passed",
+  "editable_install": "passed",
+  "pytest": "51 passed",
+  "gold": {
+    "status": "passed",
+    "cases": 60,
+    "dev": 20,
+    "test": 40,
+    "source_groups": 15,
+    "source_split_overlap": 0,
+    "facts": 95,
+    "categories": {
+      "fact": 24,
+      "list": 13,
+      "multi": 13,
+      "not_found": 7,
+      "injection": 3
+    },
+    "annotation_provenance": "checked and approved by author: Иван Лазичный"
+  },
+  "corpus_chunks": 1952,
+  "credential_file_in_export": false,
+  "paid_api_calls": 0
+}

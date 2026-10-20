@@ -1,0 +1,102 @@
+{
+  "models": [
+    "GigaChat-2",
+    "GigaChat-2-Max",
+    "GigaChat-2-Pro",
+    "GigaChat-3-Lightning",
+    "GigaChat-3-Pro",
+    "Embeddings",
+    "Embeddings-2",
+    "EmbeddingsGigaR",
+    "GigaEmbeddings-3B-2025-09"
+  ],
+  "model": "GigaChat-2-Max",
+  "api_base": "https://api.giga.chat/v1",
+  "scope": "GIGACHAT_API_B2B",
+  "tls_verification": true,
+  "text": true,
+  "native_function_call": true,
+  "function_continuation": true,
+  "functions_state_id": true,
+  "json_schema": true,
+  "embedding_dimension": 2560,
+  "usage": {
+    "prompt_tokens": 247,
+    "completion_tokens": 55,
+    "total_tokens": 302,
+    "cached_prompt_tokens": 12,
+    "generation_tokens": 302,
+    "embedding_tokens": 0,
+    "api_attempts": 5,
+    "unknown_usage_attempts": 1,
+    "api_latency_ms": 4724.45,
+    "estimated_cost_rub": null
+  },
+  "events": [
+    {
+      "operation": "generation",
+      "model": "GigaChat-2-Max:2.0.30.01",
+      "prompt_tokens": 22,
+      "completion_tokens": 3,
+      "total_tokens": 25,
+      "cached_prompt_tokens": 3,
+      "usage_known": true,
+      "latency_ms": 1606.27,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "4a0f6acd-cf16-4908-aabc-b3b5e75fd4f0"
+    },
+    {
+      "operation": "generation",
+      "model": "GigaChat-2-Max:2.0.30.01",
+      "prompt_tokens": 69,
+      "completion_tokens": 35,
+      "total_tokens": 104,
+      "cached_prompt_tokens": 5,
+      "usage_known": true,
+      "latency_ms": 1243.64,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "5c63ed40-026f-48af-8fe4-8ae1f82e2153"
+    },
+    {
+      "operation": "generation",
+      "model": "GigaChat-2-Max:2.0.30.01",
+      "prompt_tokens": 136,
+      "completion_tokens": 5,
+      "total_tokens": 141,
+      "cached_prompt_tokens": 1,
+      "usage_known": true,
+      "latency_ms": 612.53,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "e43d2ed2-506b-4d75-b72c-f72d93965af8"
+    },
+    {
+      "operation": "generation",
+      "model": "GigaChat-2-Max:2.0.30.01",
+      "prompt_tokens": 20,
+      "completion_tokens": 12,
+      "total_tokens": 32,
+      "cached_prompt_tokens": 3,
+      "usage_known": true,
+      "latency_ms": 717.55,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "0e7ab9fe-a5af-4284-9744-3f523ade7593"
+    },
+    {
+      "operation": "embedding",
+      "model": "EmbeddingsGigaR",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "cached_prompt_tokens": 0,
+      "usage_known": false,
+      "latency_ms": 544.46,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "db3d3150-a967-4bbc-9ae1-1f58f0d8ae8b"
+    }
+  ]
+}

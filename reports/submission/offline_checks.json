@@ -1,0 +1,9 @@
+{
+  "tests": 51,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 51,
+  "command": "python -m pytest -q --junitxml=reports/tests.xml",
+  "paid_api": false
+}

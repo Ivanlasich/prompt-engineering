@@ -1,0 +1,31 @@
+{"calibration": "calibration-01", "ok": true}
+{"calibration": "calibration-02", "ok": true}
+{"calibration": "calibration-03", "ok": true}
+{"calibration": "calibration-04", "ok": true}
+{"calibration": "calibration-05", "ok": true}
+{"calibration": "calibration-06", "ok": true}
+{"calibration": "calibration-07", "ok": true}
+{"calibration": "calibration-08", "ok": true}
+{"calibration": "calibration-09", "ok": true}
+{"calibration": "calibration-10", "ok": true}
+{"calibration": "calibration-11", "ok": true}
+{"calibration": "calibration-12", "ok": true}
+{"calibration": "calibration-13", "ok": true}
+{"calibration": "calibration-14", "ok": true}
+{"calibration": "calibration-15", "ok": true}
+{"calibration": "calibration-16", "ok": true}
+{"calibration": "calibration-17", "ok": true}
+{"calibration": "calibration-18", "ok": true}
+{"calibration": "calibration-19", "ok": true}
+{"calibration": "calibration-20", "ok": true}
+{
+  "cases": 20,
+  "valid_judgments": 20,
+  "agreement": 1.0,
+  "kappa": 1.0,
+  "false_acceptance_rate": 0.0,
+  "admitted": true,
+  "label_provenance": "author_reviewed",
+  "judge_prompt_hash": "3fc52eca2cb2800e7890994a293a892fbe05ded0b32d98b239733232272d9bf8",
+  "expected_cases": 20
+}

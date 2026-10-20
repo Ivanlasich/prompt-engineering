@@ -1,0 +1,36 @@
+{
+  "documents": 1,
+  "chunks": 2,
+  "embedding_model": "EmbeddingsGigaR",
+  "vector_dim": 2560,
+  "usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 0,
+    "total_tokens": 644,
+    "cached_prompt_tokens": 0,
+    "generation_tokens": 0,
+    "embedding_tokens": 644,
+    "api_attempts": 1,
+    "unknown_usage_attempts": 0,
+    "api_latency_ms": 1513.57,
+    "estimated_cost_rub": null
+  },
+  "events": [
+    {
+      "operation": "embedding",
+      "model": "EmbeddingsGigaR",
+      "prompt_tokens": 644,
+      "completion_tokens": 0,
+      "total_tokens": 644,
+      "cached_prompt_tokens": 0,
+      "usage_known": true,
+      "latency_ms": 1513.57,
+      "status": 200,
+      "attempt": 0,
+      "request_id": "b55af712-0e46-4450-8811-071f5bc26ed5"
+    }
+  ],
+  "build_seconds": 2.7893745419569314,
+  "input_sha256": "79357d7932108e6d76887cb137fb5c48b2111efe1628828393d86e690cf99c7f",
+  "partial_sample": true
+}

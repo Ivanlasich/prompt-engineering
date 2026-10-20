@@ -1,0 +1,21 @@
+{
+  "sample_chunks": 2,
+  "ids_match": true,
+  "dimension": 2560,
+  "cosines": [
+    0.9999203681945801,
+    0.9999285340309143
+  ],
+  "embedding_usage": {
+    "prompt_tokens": 644,
+    "completion_tokens": 0,
+    "total_tokens": 644,
+    "cached_prompt_tokens": 0,
+    "generation_tokens": 0,
+    "embedding_tokens": 644,
+    "api_attempts": 1,
+    "unknown_usage_attempts": 0,
+    "api_latency_ms": 1513.57,
+    "estimated_cost_rub": null
+  }
+}

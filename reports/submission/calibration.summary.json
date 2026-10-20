@@ -1,0 +1,19 @@
+{
+  "cases": 20,
+  "valid_judgments": 20,
+  "agreement": 1.0,
+  "kappa": 1.0,
+  "false_acceptance_rate": 0.0,
+  "admitted": true,
+  "label_provenance": "author_reviewed",
+  "judge_prompt_hash": "3fc52eca2cb2800e7890994a293a892fbe05ded0b32d98b239733232272d9bf8",
+  "expected_cases": 20,
+  "protocol_version": 2,
+  "signature": "34c027cb558bfb55e7d7e417b2b19083adcdf7046b4921de6ee12155f871d866",
+  "provenance": {
+    "judge_prompt_hash": "3fc52eca2cb2800e7890994a293a892fbe05ded0b32d98b239733232272d9bf8",
+    "judge_schema_hash": "efaa4f449eeb546bdf4d0e5dc48a29e31296fe37c1b4070403feea68379c2b7d",
+    "labels_hash": "3fac70987ca5c6bc5732a792a1be1b2acafdaae3307501051d814103acf084be",
+    "judgments_hash": "7ae33ee9f9f3a6b4deefddddf51a396a2f9886755ef8e52d1c3c5c9f6969a40e"
+  }
+}

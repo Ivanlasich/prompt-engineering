@@ -1,0 +1,12 @@
+{
+  "profile": "b2b-package-equivalent",
+  "scope": "GIGACHAT_API_B2B",
+  "model": "GigaChat-2-Max",
+  "generation_rub_per_1000": 0.65,
+  "embedding_rub_per_1000": 0.014,
+  "cached_input_multiplier": 1.0,
+  "cash_charge_confirmed": false,
+  "label": "Эквивалент пакета для юрлица; фактическое списание денег и договор не подтверждены",
+  "verified_at": "2026-10-20",
+  "source": "https://developers.sber.ru/docs/ru/gigachat/tariffs/legal-tariffs"
+}
