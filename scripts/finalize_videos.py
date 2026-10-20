@@ -1,4 +1,4 @@
-"""Apply the author's confirmed approval to recorded media without any API calls.
+"""Finalize recorded media locally without any API calls.
 
 Preserve the original paid browser episodes, replace only the final commentary,
 and keep reversible originals in the ignored recording cache.
@@ -18,9 +18,9 @@ from record_screencast import duration, write_captions
 from spief_rag.settings import ROOT
 
 AUTHOR = "Иван Лазичный"
-FOOTER = "Автор: Иван Лазичный. Материалы проверены и утверждены автором. Озвучка синтезирована."
-WORK = ROOT / ".cache/recording/author-approval"
-BACKUP = ROOT / ".cache/recording/pre-author-approval"
+FOOTER = "Автор: Иван Лазичный. Озвучка синтезирована."
+WORK = ROOT / ".cache/recording/final-media"
+BACKUP = ROOT / ".cache/recording/original-footage"
 FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
 
 
@@ -51,7 +51,7 @@ def probe(path: Path) -> dict:
 
 
 def snapshot() -> list[dict]:
-    """Keep the first originals unchanged so approval updates remain reversible."""
+    """Keep the first originals unchanged so media updates remain reversible."""
     BACKUP.mkdir(parents=True, exist_ok=True)
     for name in [
         "screencast.mp4",
@@ -83,7 +83,7 @@ def capture_checks() -> None:
         "comparison": read_json("reports/comparison.json"),
         "extras": {},
         "tests": read_json("reports/submission/offline_checks.json"),
-        "author": read_json("reports/submission/author_approval.json"),
+        "author": AUTHOR,
     }
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(channel="chrome", headless=True)
@@ -100,12 +100,10 @@ def capture_checks() -> None:
                     route.fulfill(content_type="text/html", body=html)
 
             page.route("**/*", fulfill_offline)
-            page.goto("http://approval.local/", wait_until="domcontentloaded")
+            page.goto("http://video.local/", wait_until="domcontentloaded")
             page.wait_for_function("window.demo?.project")
             page.evaluate("demo.selectTab('checks')")
             page.screenshot(path=str(WORK / "checks.png"))
-            if "ещё не выполнена" in page.locator("#checks").inner_text():
-                raise ValueError("stale_author_review_statement")
         finally:
             browser.close()
 
@@ -244,9 +242,8 @@ def encode(entry: dict, main: bool, narration: dict) -> dict:
         duration_seconds=float(info["format"]["duration"]),
         sha256=hashlib.sha256(target.read_bytes()).hexdigest(),
         author=AUTHOR,
-        author_approval="checked_and_approved_by_author",
         narration=narration["disclosure"],
-        postprocessing="Original live API episodes and errors preserved; final commentary replaced after author approval; permanent author/TTS footer and metadata added",
+        postprocessing="Original live API episodes and errors preserved; final commentary updated; author/TTS footer and metadata added",
     )
     return {
         "file": entry["file"],
@@ -256,7 +253,7 @@ def encode(entry: dict, main: bool, narration: dict) -> dict:
         "hash_match": True,
         "full_decode": "passed",
         "author": AUTHOR,
-        "approval_footer": True,
+        "author_footer": True,
     }
 
 
@@ -311,7 +308,6 @@ def main() -> None:
                 "videos": checks,
                 "synthetic_narration_disclosed": True,
                 "author": AUTHOR,
-                "author_approval_source": "reports/submission/author_approval.json",
                 "new_api_calls": 0,
                 "originals_backup": str(BACKUP.relative_to(ROOT)),
             },

@@ -24,7 +24,6 @@ from spief_rag.prompts import answer_system
 from spief_rag.search import SearchEngine, select_context, tool_specs
 from spief_rag.settings import ROOT, Settings, get_experiment
 from spief_rag.telemetry import Ledger, append_jsonl, run_identity
-from spief_rag.validation import approved_author
 
 
 def read_optional(path: Path, default=None):
@@ -70,8 +69,8 @@ class DemoSession:
             "tool_coverage": read_optional(
                 ROOT / "reports/live_tool_coverage.json", {}
             ),
-            "author": approved_author() or "Иван Лазичный",
-            "annotation_provenance": "checked and approved by author; metrics computed by automated benchmark",
+            "author": "Иван Лазичный",
+            "annotation_provenance": "metrics computed by automated benchmark",
         }
 
     def forced(self, question: str, name: str) -> dict:

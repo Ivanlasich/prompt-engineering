@@ -1,5 +1,5 @@
 {
-  "provenance": "analysis of recorded automated judgments; reviewed and approved by author: Иван Лазичный",
+  "provenance": "analysis of recorded automated judgments",
   "source_sha256": {
     "reports/runs/test_baseline.jsonl": "e83f8aa0bbe01435732e30fcdb5ff268e6a14c96c65b62009761a0fa1ae08e40",
     "reports/runs/test_selected.jsonl": "ca5a10a74cc336736b96c1628e5b10c6dfc47c099ade491621fe9571b868ae45"

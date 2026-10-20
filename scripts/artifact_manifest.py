@@ -54,7 +54,6 @@ def main():
         ".env.example",
         ".gitignore",
         "task/assets (2).zip",
-        "reports/submission/author_approval.json",
     ]
     fixed += [str(p.relative_to(ROOT)) for p in (ROOT / "task").glob("*.pdf")]
     for name in fixed:

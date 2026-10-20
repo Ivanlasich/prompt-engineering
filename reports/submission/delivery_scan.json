@@ -1,6 +1,6 @@
 {
-  "checked_files": 178,
-  "largest_blob_bytes": 14927551,
+  "checked_files": 176,
+  "largest_blob_bytes": 14327992,
   "findings": [],
   "credentials_in_report": false,
   "scope": "Git-tracked and non-ignored untracked delivery candidates"

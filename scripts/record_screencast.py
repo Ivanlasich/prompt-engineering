@@ -199,7 +199,7 @@ def mux_recording(
         "title=ПМЭФ: RAG на GigaChat",
         "artist=Иван Лазичный",
         "author=Иван Лазичный",
-        "comment=Автор: Иван Лазичный. Материалы проверены и утверждены автором. Озвучка синтезирована.",
+        "comment=Автор: Иван Лазичный. Озвучка синтезирована.",
     ]
     for i, item in enumerate(timeline):
         end = timeline[i + 1]["start"] if i + 1 < len(timeline) else recording_duration
@@ -309,7 +309,6 @@ async def record_clip(
         "sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
         "live_api_calls": live,
         "author": narration.get("author", "Иван Лазичный"),
-        "author_approval": "checked_and_approved_by_author",
         "narration": narration["disclosure"],
         "browser": browser.version,
         "chapters": [

@@ -1,10 +1,10 @@
 [
   {
     "file": "media/screencast.mp4",
-    "duration_seconds": 340.88,
-    "sha256": "364c0618a93105d018aff3be23a4964d175fdeee3aceb6e2860cf1f80153ecc6",
+    "duration_seconds": 339.32,
+    "sha256": "a33c715cece711d609128f786c831d22df61c16618fc5b03da9fc4f820b3f63b",
     "live_api_calls": true,
-    "narration": "Синтезированная озвучка утверждённого автором комментария. Это не запись голоса Ивана Лазичного, автора проекта.",
+    "narration": "Синтезированная озвучка. Это не запись голоса Ивана Лазичного, автора проекта.",
     "browser": "156.0.8078.4",
     "chapters": [
       {
@@ -94,24 +94,23 @@
       {
         "title": "Проверки и ограничения",
         "action": "checks",
-        "text": "В проекте есть модули, командный интерфейс, выполненный демонстрационный ноутбук, конфигурации, золотой набор и сырые журналы. Локальные тесты проверяют контракт API, оба поиска, источники, лимиты, кеш и учёт ошибок. Новый протокол измерений привязан к фактическим промптам, схемам и калибровке судьи. Одинаковые семьдесят процентов на этом тесте не доказывают отсутствие ухудшений на любых будущих вопросах. Автор проекта Иван Лазичный проверил и утвердил все материалы. Метрики получены автоматическим оценщиком. Озвучка синтезирована; это не запись голоса автора.",
-        "audio_duration": 38.046621,
+        "text": "В проекте есть модули, командный интерфейс, выполненный демонстрационный ноутбук, конфигурации, золотой набор и сырые журналы. Локальные тесты проверяют контракт API, оба поиска, источники, лимиты, кеш и учёт ошибок. Новый протокол измерений привязан к фактическим промптам, схемам и калибровке судьи. Одинаковые семьдесят процентов на этом тесте не доказывают отсутствие ухудшений на любых будущих вопросах. Автор проекта — Иван Лазичный. Метрики получены автоматическим оценщиком. Озвучка синтезирована; это не запись голоса автора.",
+        "audio_duration": 36.514104,
         "start": 299.30623341700993,
         "run_id": null,
         "status": null,
         "error": null
       }
     ],
-    "postprocessing": "Original live API episodes and errors preserved; final commentary replaced after author approval; permanent author/TTS footer and metadata added",
-    "author": "Иван Лазичный",
-    "author_approval": "checked_and_approved_by_author"
+    "postprocessing": "Original live API episodes and errors preserved; final commentary updated; author/TTS footer and metadata added",
+    "author": "Иван Лазичный"
   },
   {
     "file": "media/search-tools.mp4",
     "duration_seconds": 99.28,
-    "sha256": "730469950cff403237a7bcc042d7a4ebcfec1d73fe7e2065f6838b678a828b58",
+    "sha256": "5b59f0238e0c7ba40a7ccba451fbdbeed721886b351b934e43fab65a99d749e0",
     "live_api_calls": true,
-    "narration": "Синтезированная озвучка утверждённого автором комментария. Это не запись голоса Ивана Лазичного, автора проекта.",
+    "narration": "Синтезированная озвучка. Это не запись голоса Ивана Лазичного, автора проекта.",
     "browser": "156.0.8078.4",
     "chapters": [
       {
@@ -145,8 +144,7 @@
         "error": null
       }
     ],
-    "postprocessing": "Original live API episodes and errors preserved; final commentary replaced after author approval; permanent author/TTS footer and metadata added",
-    "author": "Иван Лазичный",
-    "author_approval": "checked_and_approved_by_author"
+    "postprocessing": "Original live API episodes and errors preserved; final commentary updated; author/TTS footer and metadata added",
+    "author": "Иван Лазичный"
   }
 ]

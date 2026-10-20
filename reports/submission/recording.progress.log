@@ -13,18 +13,20 @@
 [
   {
     "file": "media/screencast.mp4",
-    "duration_seconds": 378.8,
-    "sha256": "62204fbf843624dd9359815af608449db6f568b4fa58abea74fb1b47d7b8079b",
+    "duration_seconds": 339.32,
+    "sha256": "a33c715cece711d609128f786c831d22df61c16618fc5b03da9fc4f820b3f63b",
     "live_api_calls": true,
-    "narration": "Автор: Иван Лазичный. Материалы проверены и утверждены автором. Озвучка синтезирована.",
-    "browser": "156.0.8078.4"
+    "narration": "Синтезированная озвучка. Это не запись голоса Ивана Лазичного, автора проекта.",
+    "browser": "156.0.8078.4",
+    "author": "Иван Лазичный"
   },
   {
     "file": "media/search-tools.mp4",
-    "duration_seconds": 107.08,
-    "sha256": "b4117fe64e55574c0fb45161aa586e99a33b43e91bf128462c47da0c840dce76",
+    "duration_seconds": 99.28,
+    "sha256": "5b59f0238e0c7ba40a7ccba451fbdbeed721886b351b934e43fab65a99d749e0",
     "live_api_calls": true,
-    "narration": "Автор: Иван Лазичный. Материалы проверены и утверждены автором. Озвучка синтезирована.",
-    "browser": "156.0.8078.4"
+    "narration": "Синтезированная озвучка. Это не запись голоса Ивана Лазичного, автора проекта.",
+    "browser": "156.0.8078.4",
+    "author": "Иван Лазичный"
   }
 ]

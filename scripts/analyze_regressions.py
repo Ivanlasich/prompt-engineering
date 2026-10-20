@@ -108,7 +108,7 @@ def analyze(baseline: Path, candidate: Path) -> dict:
             }
         )
     return {
-        "provenance": "analysis of recorded automated judgments; reviewed and approved by author: Иван Лазичный",
+        "provenance": "analysis of recorded automated judgments",
         "source_sha256": {
             str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
             for p in [baseline, candidate]
@@ -135,7 +135,7 @@ def main() -> None:
     lines = [
         "# Разбор парных регрессий baseline → short_prompt",
         "",
-        "Автор: Иван Лазичный. Разбор сохранённых журналов и исходных автоматических оценок проверен и утверждён автором. "
+        "Автор: Иван Лазичный. Разбор сохранённых журналов и исходных автоматических оценок. "
         "Ответы, метки полезности и измеренные расходы сохранены. "
         "Хеши источников, исходные ответы, цитаты, tool arguments и идентификаторы запусков сохранены в [error_analysis.json](error_analysis.json).",
         "",

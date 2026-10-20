@@ -19,8 +19,7 @@
       "multi": 13,
       "not_found": 7,
       "injection": 3
-    },
-    "annotation_provenance": "checked and approved by author: Иван Лазичный"
+    }
   },
   "corpus_chunks": 1952,
   "credential_file_in_export": false,
